@@ -9,7 +9,7 @@ permalink:           /:title
 
 # Setup
 timezone:            Asia/Seoul # eg. Asia/Kathmandu
-locale:              your locale language # eg. en_us
+locale:              kr # eg. en_us
 name:				         devwon's blog
 title:               devwon's blog
 tagline:             'tagline'
@@ -25,7 +25,7 @@ icon:                your site icon path # /assets/img/icon.png [best 300px X 30
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
-  name:           	 hyerin won
+  name:           	 devwon
   url:            	 https://devwon.github.io/
   facebook:          username
   twitter:           username
