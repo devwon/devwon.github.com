@@ -7,6 +7,17 @@
 		<atom:link href="http://localhost:9001/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Build A jekyll blog</title>
+				
+				
+					<description>how to bulid a jekyll blog?</description>
+				
+				<pubDate>Tue, 02 Jan 2018 02:03:00 +0900</pubDate>
+				<link>http://localhost:9001/1.Build-a-jekyll-blog</link>
+				<guid isPermaLink="true">http://localhost:9001/1.Build-a-jekyll-blog</guid>
+			</item>
+		
+			<item>
 				<title>A Life of Walt Disney</title>
 				
 				
