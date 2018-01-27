@@ -1,0 +1,104 @@
+---
+layout: post
+title:  "hyerin"
+date:   2018-01-27 13:03:00
+last_modified_at:  2018-01-01 17:03:00
+excerpt: "lalala"
+categories: history
+tags:  jekyll, blog
+image:
+  feature: jekyll-logo.jpg
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+# [기술블로그 운영을 위해 Jekyll 설치]
+### 참고 사이트 - [[지킬로 깃허브에 무료 블로그 만들기]](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
+
+*기술블로그로 무엇이 좋을까 찾아보다가 내맘대로 커스터마이징(customizing)할 수 있는 jekyll로 블로그를 만들기로 결정하고 [참고 사이트](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)에 따라 기술블로그를 만들었다.~~(이때는 커스터마이징이 이렇게 힘들줄 몰랐음)~~
+그 과정에서 나온 **오류들, 해결과정**을 정리해보려고 한다:)*
+## 1. jekyll 설치
+
+  terminal에
+  `$sudo gem install Jekyll`
+  를 입력하라고해서 입력했는데..
+
+ ![에러이미지1](https://lh3.googleusercontent.com/LK04slUsbXoxhJyOzgelsIDWwVOoLqm-vn3IiuQYNOFsyZpy28NRLUtu560qzwxvOR8fE1JnWsco9uHojUeaqdOctCTSdmT0A4n-3FUbBtrSc9P5rkDjXW1GBds74tdORJ3_Yue5zPTmjknBVAH9N4M0cPMq7ZIWo7E5NOyC6VfCcaWxPWSbmaQqeulWJ69inPJ_OHULrn88iC6IMkr2c7i0YKbI1i0-mXhjCtc19frv7TpfI5whXLTNges6NoNvq1mFetwxCEGNsjK-VHZtl3kfRMODqQdF7-m_FcWe7QZ6dLUgUAg50wfjqEGMcOyIqSKirao3nR-qTdI9z46HpIBk-knZPYP1fkziHnxdyW7IAmnIP42XacdnY43hlqT--FgrZwVBClxTQYNNR7Lhu4RMu9S2pyCy6k78HS22YqORWZix1Vt52HaBGEuubadzqxd2FbMizmgzyVozQz9_GDqzh3f1vahYY8eFBDhnKeHJiKh3YV7LOVOvDZPMaVQOojEXW1trfUGlNMeZqCtgWjmY6thBuvxwEjoKnrC0Vt8Si3OSwHkDVYjPEhvz1Dd2Wndv1l4XAnqMn9GV7-6JHC9I9nU-kPUqsRmm8Ws=w1114-h126-no)
+  이러한 에러 발생.. stackoverflow, 구글링 통해 찾아봤더니
+  `$gem update —-system`
+  를 입력하면 해결 된다고 해서 입력했는데..
+
+  또 오류ㅜㅜ
+
+![에러이미지2](https://lh3.googleusercontent.com/AfjkUjGehYNoTTYG1k3Q9Lj5DtCuYtjodqtcNzlg9odyKZXS5zFIBmh96AZKIt4frYmL4Bo76q4DyVTG6ph2bH8aTEKu9lKPWXrEXqzvf686Ycs-JU03gspSYKR7Spgan58gsox9BVcySiTN0BAkXTzrgzj19tM9CxSork285R2RO2x8PqlkkgWskWvOvohUj9dmZFJT6pW8TvY0OGPC2gonyahTc3Cv7u04bV5Ji6SlbYzsTqDc8OUsaYeJekQm761KDrWMrDmEwcJdvtvGG_dEhCo-0OVZPc6UBeilRZVum3eVNoHf7lbQqqCXgwwq0SIf6B8BNZNZ4F2XexP84CnVssZGDlmsXMftPQw-6TnoyO2HkCizLH-8fUfOE6BcoURs2daabcjHNmX4FkORqYyLasCUQPFBUDuusCv9sfPB08xn1rhK3DXVZdwSo3LZ5r7XM86gIJpjE54knqbaeLlUD4EfotQCZ2lxUGurNGJ-uDrizuI-QVp_thopgtsdG0SHEPP_eLfo6Er35_mze2pTKlIMa3gHsOUQVpI_m8-UJhN0x_envFtSTSwMoEcEXI6t6imJqRQS_QURo5OJ-If7mx96ydoKD4Gw8v4=w1412-h324-no)
+
+  고민하다가..지난번 'fastcamp101-python'에서 살짝 배웠던 Homebrew를 사용하기로 함!
+  [[지킬문서]](https://jekyllrb.com/docs/troubleshooting/#jekyll--mac-os-x-1011)
+  를 참고하여
+  `brew install ruby`
+  brew에 ruby 설치 후,
+  `$sudo gem install Jekyll`
+  다시 시도했더니 설치가 되었다..ㅎㅎ
+![gem installed 이미지](https://lh3.googleusercontent.com/5KL9ynb7xmvIkyFREqEVpMI7Y5l8GZd08AoNpr39wtmRYGmXwbGaFmxqkI-YSjql6BnK78pB-qOf-EIHv09J8qZEOQv7-ffcW7nGsOQtVUtiLl_90qJioXrQVziBA3BR4dNuCQxO9FrodYOv1WSniceDc1crmDSjfqGrdjK9fxaWXBrF5tDRlgHy-oYzigUAezBPoJlvRzreeOPRwOjdcj6jJaoKPOM8cO78fGBZVd4Ez8pKmG5ev1bFJHqNNiimgMHNUcU3KdBbg54V5nFrJIC_8KfQWbgxk-W-I6uoY2e6SlRN9HBnV4PJ4LGJr6HNUAvo4dKwPRFN4-UALFktSn3HPZHW4bc2gxDrv2F-pA8bAhp2s3p7HWgd__LZZ44UPmH8VwYkBo6H4csGDe-8IEUnwj44qMJdUo8XfbmGQ0G3TZVHtB1cmKZUoWZOI_0jwKEE8sJAQCIC78yrup7toLoZc0t12dsTJ3sRk5WI_n6Wwr168WcQ6ccyuyRTo_D0Nr4erv6Hzdt-2vZwlqKh8eb_JeZOlGCpo38TL3gsPYUOcJ7E9uACEzooofO9_5HoBtGa6pSE0K1UaNztYMHEb-pFI9LpoTrD-EEjpf4=w1424-h198-no)
+  이렇게나 많은 gem들이 설치되었다:)
+
+##  2. 계정 주소 만들기
+
+사이트의 안내에 따라,
+
+`new 깃허브사용자명.github.com`
+으로 계정 주소를 만들고,
+
+`cd 깃허브사용자명.github.com`
+
+`jekyll serve --watch`했는데.. 또 나의 친구💛오류가...
+
+![에러이미지3](https://lh3.googleusercontent.com/HyVb2TzWRkF3pUV-Ujrw_TBaRp1HJoSNDWsedaTEE4623dXzLh4ga8iXQLT9WZveAge1OE8ogTU7E8El8cLSUBTMo_oe4OPu956_Vx2QIfFRvXWbtDJOiUd9y9wlzHd3vh-4j30ZcGOyPQWJOTlWJV0Z7xvb8uoLa8hcTeghS_hwyhliPmAvy7X8NZbl3iqgC_fLyOElogbbTrknKAwP-j_fyNCgiahQrDStEcTDF1qSpZwtDQeYSDQYPrkDhy1IuQsULRcy4XLnVl4WIsOCe7UCv7Vw6xeUs4FUgPH78UoQMJ9PjW6pkPL7EKOiVOsFfxXCO9xqMNGPye6Pjx5FAAgMDauI1aN6GsVFn17WMiyLf2wKotvr1jQG_mottJhegfotQWYTWz1Ww7rtJVUePO9evvhHrn6FDDya8eODcReaimT7-sKP-g-LsTEwuMLfnF0JaGZHbAYQZWtRdlDVm27zyrQrsy1jor8VILXVgFIRXqali1FuVegYb-BvqpfGbMbEIp4gGtyzbNO1qFL1pXp5xBgrzGJgtkSga1jHdwD-NSaA9lvKZTP9Fdsw4_1VoWF89BMsQmpIxcSBg8EdTPG5WGper-uWW7_j6Zo=w1438-h598-no)
+
+
+>**허무했던  해결의 과정**
+>
+>  이전에 python django 서버를 켜놨었는데 그걸 끄고(ctrl+c) 다시
+>  `jekyll serve --watch`
+>  하니까 되었다.
+>  
+>  ![server running 이미지](https://lh3.googleusercontent.com/D4vn6sLgNpBqbwEXzKglmnoAkuegSF5nwLrVGpEfK3xX-tWUNT4dG5SuocQGT1w7mUn_61YUkPZe-xPAkvVrqvNR1OniGF6pwmtl9Y8cFH8_7Suqb4rzClGJbAo-vUacg4fGCAINTwLQmMeXyfj64ON4cD_H5TLKP-Ej_dRMXn6QNvTEDUZq_5Jf_zZsfsiy-6kUpauCw6i2KVOH-P2iZcvKKMOAPL8LUbJHC1rrTpNqJJpzhys1FmA_YJT5neWeBOJkMuj7kG5cKGHfBf2vvWu2Kyv2-fXjEzmwH9C_LNDicLx0qy5KZjHvOmOcdqpV17PQiQHY3YfZ3sB9eWMKU4qhXmj-XnXwe_yDVKBgPwjepxtPymjGSRWF9tDCZXrei1qsbOwPnn9Nmydn5yN0eUHTA43QunWksjUMfjX82xRkRkOY5Ebsk534PiNj6voXY_xBu7fqiZGyDP_jDRdHH2cCOcxD3jchxpashpWYtmtA51rlUFv7ME6DZU5VUOD1CiuXkWekj-9sFZfbvrbUgDmPP2myosDLLdybADXJV8nxr5VRJOgeKVIKWMdac-ZNNWwUvCLd1rLhjLdtQdoimr1CQqZ0lEc-OY57twc=w1384-h398-no)
+
+## 2-2. github에 저장소 추가
+
+내 github에 로그인해서 repository 추가한 후,
+
+- `git init`
+- `git remote add origin 해당 repositoryURL`
+- `git add .`
+- `git commit -m "Initialize blog"`
+- `git push -u origin master`
+
+이 단계로 하고 있었는데..
+마지막 `git push` 부분에서 에러가 나오셨도다...
+
+![에러이미지4](https://lh3.googleusercontent.com/EZ81zcUNbVU9noFt6mZhmDe70spS2EapKvT2JdTXaoW3OCt2PM6wweDIuDvTb1Ah7ZmibOrDO8BvYq2itQm_l6NTE5plYW1yLUAwaw8o8TTSpD0yhCXyfON1rdELY_5k6NcF-xyLyochMdj29Pvtc50u7j4aLDyF0Esltx2ljMhlU1yX6krfeXYfVxFu19EXT_Sxrqb5sBr7G57w2UvaUxD9m6_2bHy2ViNlhKm2oUxDQd8hMmtV10K4nfKy0ZFfD-d812CBHV5CwK0ICFXsD8Yg1cxT6u7w45NPXzRPdTB7LQR6_zQ3L7Yc63_nISTrFer9w4QNHCx5jwzbL392eWt1QxS4U8OM8c64JbF-O7dh9tdgtpd5wrsldoewKIRyx1N6XB_1E6L_MbMlB1P0OaiBHdB1bpzWvnSS5GluHI8CrQ74o3Z_mrxzA5CfsghnaqTfolHy7WcjPFYAiotLmXoeXNabD-dm-_uU7G7Gn6ifnsOpk0QHNFA0KMnO8U2zuXIJ4mI8C60S3PGpV6fcliZx7CWRqAz45xdDg4u67K0XzSoILWJG1SgaelBp6RZXl4LkCk3wpg5LzHcaVJUtsrx38bddgWFRyS2Jgc0=w1390-h366-no)
+
+그래서 stackoverflow에 오류 내용을 검색했더니,
+
+`git push -f origin master`
+
+`-u` 대신에 `-f`를 쓰란다! 입력하니 바로 해결ㅎㅎ
+
+![완료 이미지](https://lh3.googleusercontent.com/oxRnVVx9UHAKWyZ2VD3slH85aFaHii2c2LdSe7w-8FqFsK0gLUl4jndySvj0tRjEuR6aj0we9oY3EeXTY88Uj6qRxF0tvEK-rn7D3QdWum-dEkaRt_qrvwRK7WLdvfFe_YisCLab6Y_h610cHpCaonOweKAcM5Le6jawcgrdYV0WJ8miks17RX1_O9nQkQ5Jz904EYlCfJYT7ukr-x5CHNjKIMc-jk-dLGvEttUJ8ImwRPJjko_RuAFxg_Dl5Ku-rN9ltkyoPkCwYwzVGm-k6wlC2eIvQ7csw5oYKcHmNHfXP35KikJ0Z3zm571e37upjSXjqT7kgLaoYoq16YGDgskk8VP8ogdNslWazOjF66oJ91muP47yQ1KegwpZREtQLh83s5mtpHjtUc7JnoOKx25WYv-WiIAAaXyiDxQcc2KdcHOnSLw1XfMZDBenqDylIB-X1od69oYKvE1nmNKvnrXiDC3JoRChUvwgICqQml84tCoLady03QvqFSKIplXQ2RftWsmbd8DDcdoSNUI3smeXBUNKR31tN-SmjaVrJw2lrEWWgZE0JJlK7UahcXFvQ7LgOVRNaaYHrCWlUe3oFPqOVqsuOUrAxRwbGdI=w1342-h408-no)
+
+>**번외**: git repository URL을 변경하는 방법
+>
+>`git remote set-url origin 변경하려는URL`
+>
+>*어떤 분들은 **지킬 테마**를 git으로 다운받고 주소만 변경하는 간단한 방법을 쓰기도 하더라!
+
+# 드디어 완료~~~!
+> devwon.github.io 의 주소를 가진 나만의 블로그를 만들었다.
+>
+> 개인적인 정보들을 추가해서 조금 꾸민 모습!
+
+![블로그 이미지](https://lh3.googleusercontent.com/VCNgKt-6E0zamJILN66NPvkg9UnCkpokszPQRlUoRo1B7wTFk2kp5AyQh9DE1GND4H_lvPQXEZzLQQRwVKBH0s0GVrAEsJfEnTObxOLHBwOPZqpSDFCcvESc7nS168w61OdhH5vTX77RPoVq7c367IpiVFhnb6nodiu3G_Uz2myI7VzL-9V2PFuTZpenjIPlardSMBOaM6RrJJbnstcrQb6IELJopaS_fg9KwTvXnuajFQgaPmzX1vpauT4vumsGfTRmbyC07bUOSdgzyC2IlfeUelDsDRUCtfrYcEZfYQTguRTWljvUSvm6y2IflofniRtkiopHJZqmEibsCCispI1YsfFIYvE4q_Ep6yVD1IvelOr0UdjMJpM7au-rdfMRjYMMUAHj_rAdoskRpfCkYX1ACypFBIJSmwzTuy_zFfJDWsvrtZuz2stlTIaWQgdjEyTBPAQxP9bhy0oGqdR7OloNC8dI0FspZcIuQapYJ4se1KH-9L6DFwsx423B4uZxQav394CuTBv8MphdP2PW9cHCuZZEfOLxrDFXNP73FTOfbdwmVoOyEonxdmmzcnk8scsN1AY9imMM0RS7xPfX4w9jNlKfW88VHpeQGcA=w1538-h1070-no)
+
+> 이제 [Disqus](https://disqus.com/) 댓글기능을 붙이고, 메뉴를 추가하고, 꾸준히 웹개발 관련 글을 올리는 게 목표! 화이팅:)
