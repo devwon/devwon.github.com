@@ -5,7 +5,7 @@ highlighter:         rouge
 
 # Permalinks
 permalink:           /:title
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 timezone:            Asia/Seoul # eg. Asia/Kathmandu
