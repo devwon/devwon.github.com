@@ -26,7 +26,7 @@ disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
   name:           	 devwon
-  url:            	 https://devwon.github.io/
+  url:            	 https://devwon.github.io
   facebook:          username
   twitter:           username
   google_plus:       username
