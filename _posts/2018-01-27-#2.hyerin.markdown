@@ -14,5 +14,4 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-*git branch 테스트입니다.
-라라랄라라라라!
+*git branch 테스트란다 ㄹ라라라라라
