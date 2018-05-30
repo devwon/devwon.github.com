@@ -24,7 +24,7 @@ syntaxHighlighter: no
   `$sudo gem install Jekyll`
   를 입력하라고해서 입력했는데..
 
- ![에러이미지1](https://lh3.googleusercontent.com/LK04slUsbXoxhJyOzgelsIDWwVOoLqm-vn3IiuQYNOFsyZpy28NRLUtu560qzwxvOR8fE1JnWsco9uHojUeaqdOctCTSdmT0A4n-3FUbBtrSc9P5rkDjXW1GBds74tdORJ3_Yue5zPTmjknBVAH9N4M0cPMq7ZIWo7E5NOyC6VfCcaWxPWSbmaQqeulWJ69inPJ_OHULrn88iC6IMkr2c7i0YKbI1i0-mXhjCtc19frv7TpfI5whXLTNges6NoNvq1mFetwxCEGNsjK-VHZtl3kfRMODqQdF7-m_FcWe7QZ6dLUgUAg50wfjqEGMcOyIqSKirao3nR-qTdI9z46HpIBk-knZPYP1fkziHnxdyW7IAmnIP42XacdnY43hlqT--FgrZwVBClxTQYNNR7Lhu4RMu9S2pyCy6k78HS22YqORWZix1Vt52HaBGEuubadzqxd2FbMizmgzyVozQz9_GDqzh3f1vahYY8eFBDhnKeHJiKh3YV7LOVOvDZPMaVQOojEXW1trfUGlNMeZqCtgWjmY6thBuvxwEjoKnrC0Vt8Si3OSwHkDVYjPEhvz1Dd2Wndv1l4XAnqMn9GV7-6JHC9I9nU-kPUqsRmm8Ws=w1114-h126-no)
+ ![에러이미지1](<img width="557" alt="1" src="https://user-images.githubusercontent.com/34532192/40702364-7fe657c8-641c-11e8-96a9-6cc1e02c77ed.png">)
   이러한 에러 발생.. stackoverflow, 구글링 통해 찾아봤더니
   `$gem update —-system`
   를 입력하면 해결 된다고 해서 입력했는데..
