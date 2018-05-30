@@ -24,7 +24,8 @@ syntaxHighlighter: no
   `$sudo gem install Jekyll`
   를 입력하라고해서 입력했는데..
 
- ![에러이미지1](<img width="557" alt="1" src="https://user-images.githubusercontent.com/34532192/40702364-7fe657c8-641c-11e8-96a9-6cc1e02c77ed.png">)
+ <img width="557" alt="1" src="https://user-images.githubusercontent.com/34532192/40702364-7fe657c8-641c-11e8-96a9-6cc1e02c77ed.png">
+ 
   이러한 에러 발생.. stackoverflow, 구글링 통해 찾아봤더니
   `$gem update —-system`
   를 입력하면 해결 된다고 해서 입력했는데..
