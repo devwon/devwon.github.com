@@ -91,7 +91,7 @@ gulp.task('watch', function() {
           'assets/fonts/**',
           '_layouts/**',
           '_includes/**',
-          'assets/css/**'
+          '../assets/css/**'
         ],
         ['jekyll-build']);
   gulp.watch("_site/index.html").on('change', browserSync.reload);
