@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
@@ -62,76 +61,5 @@
 				<guid isPermaLink="true">http://localhost:9001/television</guid>
 			</item>
 		
-			<item>
-				<title>Color films</title>
-				
-				
-					<description>Mickey first appeared animated in color in Parade of the Award Nominees in 1932, however the film strip was...</description>
-				
-				<pubDate>Fri, 18 Nov 1932 10:00:00 +0900</pubDate>
-				<link>http://localhost:9001/color-films</link>
-				<guid isPermaLink="true">http://localhost:9001/color-films</guid>
-			</item>
-		
-			<item>
-				<title>Comics</title>
-				
-				
-					<description>Mickey first appeared in comics after he had appeared in 15 commercially successful animated shorts and was easily recognized by ...</description>
-				
-				<pubDate>Mon, 13 Jan 1930 10:00:00 +0900</pubDate>
-				<link>http://localhost:9001/comics</link>
-				<guid isPermaLink="true">http://localhost:9001/comics</guid>
-			</item>
-		
-			<item>
-				<title>Black and white films</title>
-				
-				
-					<description>In Mickey's early films he was often characterized not as a hero, but as an ineffective young suitor to Minnie Mouse...</description>
-				
-				<pubDate>Thu, 28 Mar 1929 10:00:00 +0900</pubDate>
-				<link>http://localhost:9001/black-and-white-films</link>
-				<guid isPermaLink="true">http://localhost:9001/black-and-white-films</guid>
-			</item>
-		
-			<item>
-				<title>Mickey Mouse's Debut</title>
-				
-				
-					<description>Disney had Ub Iwerks secretly begin animating a new cartoon while still under contract with Universal...</description>
-				
-				<pubDate>Sun, 18 Nov 1928 10:00:00 +0900</pubDate>
-				<link>http://localhost:9001/debut</link>
-				<guid isPermaLink="true">http://localhost:9001/debut</guid>
-			</item>
-		
-=======
----
----
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			</item>
-		{% endfor %}
->>>>>>> origin
 	</channel>
 </rss>
