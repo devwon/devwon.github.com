@@ -22,10 +22,12 @@ May. 2012 - Feb. 2014
 
 ### Kyonggi university : 경기대학교
 May. 2014 - Feb. 2018
+ 
 MIS, Management Information System : 경영정보학과
 
 #### [Careers]
 Aug. 2018 - Now
+ 
 LDCC, Lottecard IS team, web development : 롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
 
 #### [Stacks]
@@ -34,7 +36,7 @@ jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, mave
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){: width="60%" height="60%"}](https://stackshare.io/devwon/my-stack)
 
 
-#### [깃허브 주소]
+#### [More in github]
 [link to Github!](https://github.com/devwon)
 
 ## 경험 및 경력기술서
