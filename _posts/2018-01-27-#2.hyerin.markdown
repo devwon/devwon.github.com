@@ -30,7 +30,10 @@ LDCC, Lottecard IS team, web development
 : 롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
 
 #### [Stacks]
-java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven 
+java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
+jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
+[![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C)](https://stackshare.io/devwon/my-stack)
+
 
 #### [깃허브 주소]
 [link to Github!](https://github.com/devwon)
@@ -41,24 +44,49 @@ java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, jekyll, django, 
 
 2019-05-27 ~ 2019-06-21 
 
-1) 주사용기술 : java spring framework, javascript, oracle, 배포는 git, bitbucket, jenkins, interface(EAI) 
-2) 주요내용 : DW에서 일배치로 내려주는 고객, 컨텐츠정보들을 개인화된 값으로 치환하여 개인화하여 노출되게 개발, 엘드림 페스타라는 이벤트에서 고객이 롯데 계열사에서 결제하면 5만원당 1볼씩 쌓이는데, 이를 조회하여 개인화된 볼갯수 노출되게 개발. 
-3) 공헌한 점 : 승인업무와 OGG인 테이블에서 해당 고객 볼개수 조회 쿼리 개발, 볼개수를 개인화한 값으로 치환하도록 프로세스 개발 
+1) 주사용기술 : java spring framework, javascript, oracle, 
+              배포는 git, bitbucket, jenkins, interface(EAI) 
+2) 주요내용 : DW에서 일배치로 내려주는 고객, 컨텐츠정보들을 개인화된 값으로 
+            치환하여 개인화하여 노출되게 개발, 엘드림 페스타라는 이벤트에서 
+            고객이 롯데 계열사에서 결제하면 5만원당 1볼씩 쌓이는데, 이를 조회하여 
+            개인화된 볼갯수 노출되게 개발. 
+3) 공헌한 점 : 승인업무와 OGG인 테이블에서 해당 고객 볼개수 조회 쿼리 개발,
+            볼개수를 개인화한 값으로 치환하도록 프로세스 개발 
 
 #### [중편카드신청 프로세스 개발] 
 
 2019-01-07 ~ 2019-02-01 
 
-1) 주사용기술 : java spring framework, javascript, oracle, 배포는 git, bitbucket, jenkins 2) 주요내용: 새로운 카드신청 프로세스 개발(기존 본인인증만 하고 전화로 정보받는 간편신청과 모든 정보를 다 입력하는 완편신청 사이의 중편신청 프로세스-간편은 전화로 다 받기 번거롭고, 완편은 사용자가 다 입력하기 부담스럽다는 요건)에서 여러 스텝에서 주소, 직장내용, 한도 등 기존회원의 정보를 DB, 인터페이스 통신을 통해 가지고 와서 카드신청을 할 수 있게 개발 3) 공헌한 점: 200개가 넘는 신청 인터페이스 항목을 어디서 가져오는지를 파악, 가져오도록 구현, 퍼블리싱 오류 개선, validation, null check, 실제 카드신청 되는지 다양한 단위테스트  4) 결과/성과: 기존회원의 편리한 카드신청 도모, 일일 500명이 넘는 기존회원 중편신청 유입   5) 문제 해결점: 인터페이스 통신에 대한 꼼꼼한 분석이 필요했지만 200개가 넘는 항목들을 다 체크하기에는 시간이 역부족하였습니다. 한정된 시간내에 항목들을 그룹핑하여 우선순위를 부여, 우서순위가 높은 순으로 분석, 구현 및 테스트를 진행하였습니다. 그룹핑을 함으로써 더 체계적인 분석과 효율적인 시간 활용이 가능하였습니다.
+1) 주사용기술 : java spring framework, javascript, oracle, 
+             배포는 git, bitbucket, jenkins 
+2) 주요내용: 새로운 카드신청 프로세스 개발(기존 본인인증만 하고 전화로 정보받는 
+            간편신청과 모든 정보를 다 입력하는 완편신청 사이의 중편신청  
+           프로세스-간편은 전화로 다 받기 번거롭고, 완편은 사용자가 다 입력하기 부담스럽다는 요건)
+           에서 여러 스텝에서 주소, 직장내용, 한도 등 기존회원의 정보를 DB, 
+           인터페이스 통신을 통해 가지고 와서 카드신청을 할 수 있게 개발 
+3) 공헌한 점: 200개가 넘는 신청 인터페이스 항목을 어디서 가져오는지를 파악, 
+            가져오도록 구현, 퍼블리싱 오류 개선, validation, null check, 
+            실제 카드신청 되는지 다양한 단위테스트
+4) 결과/성과: 기존회원의 편리한 카드신청 도모, 일일 500명이 넘는 기존회원 중편신청 유입
+5) 문제 해결점: 인터페이스 통신에 대한 꼼꼼한 분석이 필요했지만 200개가 넘는 항목들을 
+             다 체크하기에는 시간이 역부족하였습니다. 한정된 시간내에 항목들을 그룹핑하여 
+             우선순위를 부여, 우서순위가 높은 순으로 분석, 구현 및 테스트를 진행하였습니다. 
+             그룹핑을 함으로써 더 체계적인 분석과 효율적인 시간 활용이 가능하였습니다.
 
 #### [이미지 분석기 ios앱 제작(모바일 머신러닝)] 
 
 2019-02-03 ~ 2019-02-04 
 
 1) 주사용기술 : swift4, Inception V3 model(apple 제공), Xcode simulator 
-2) 특징: 모바일 머신러닝에 대한 공부 및 구현으로 라이브러리에서 사진을 선택하면 해당 사진이 어떤 것인지 파악해서 알려주는 앱 구현  
+2) 특징: 모바일 머신러닝에 대한 공부 및 구현으로 라이브러리에서 사진을 선택하면
+        해당 사진이 어떤 것인지 파악해서 알려주는 앱 구현
 3) 발전 가능성: 한글번역, 추천서비스 등 앱 고도화 필요 
-4) 문제 해결점: 튜토리얼을 참고하여 개발하여서 내 stack에 맞는지 확인이 필요했습니다. 원래는 Inception V3가 아닌 core ML을 쓰고 싶었지만 여건이 안되어서 Inception V3 모델만을 사용하여서 개발하였습니다. 성공요인은 단시간 높은 집중력을 발휘한 것인데, 설연휴기간에 개발을 하여서 아주 높은 집중력을 보일 수 있었습니다. 한글로 번역하는 기능과 추천서비스 구현 등 더 고도화해야하지만 집중력을 끌어모으고나서 개발할 예정입니다. 
+4) 문제 해결점: 튜토리얼을 참고하여 개발하여서 내 stack에 맞는지 확인이 필요했습니다.
+              원래는 Inception V3가 아닌 core ML을 쓰고 싶었지만 여건이 안되어서 
+              Inception V3 모델만을 사용하여서 개발하였습니다. 
+              성공요인은 단시간 높은 집중력을 발휘한 것인데, 설연휴기간에 개발을 하여서
+              아주 높은 집중력을 보일 수 있었습니다. 한글로 번역하는 기능과 추천서비스 구현 등
+              더 고도화해야하지만 집중력을 끌어모으고나서 개발할 예정입니다. 
 [소스는 여기](https://github.com/devwon/ML-test)
 
 #### [nodeJS로 웹쇼핑몰 구축]
@@ -66,6 +94,9 @@ java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, jekyll, django, 
 2018-01-22 ~ 2018-02-21 
 
 1) 주사용기술 : nodejs, mongoDB, ubuntu, docker, nginx 
-2) 특징: 회원가입 부터 결제까지 가능한 웹쇼핑몰을 nodeJS 언어로 구현, mongoDB를 사용하여 nosql의 flexible함과 nodeJS의 restful함을 경험함.
-3) 배운 점: iamport api를 이용하여 결제 프로세스를 구현하는 것과 socket.io를 사용하여 실시간 채팅 구현하는 것과 summernote bootstrap을 사용하여 에디터를 구현하는 것으로 필요한 api, 라이브러리를 적절히 사용하는 방법을 배웠다. 
+2) 특징: 회원가입 부터 결제까지 가능한 웹쇼핑몰을 nodeJS 언어로 구현, 
+        mongoDB를 사용하여 nosql의 flexible함과 nodeJS의 restful함을 경험함.
+3) 배운 점: iamport api를 이용하여 결제 프로세스를 구현하는 것과 socket.io를 사용하여
+          실시간 채팅 구현하는 것과 summernote bootstrap을 사용하여 에디터를 구현하는 것으로
+          필요한 api, 라이브러리를 적절히 사용하는 방법을 배웠다. 
 [소스는 여기](https://github.com/devwon/nodeShop)
