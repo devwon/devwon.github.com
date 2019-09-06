@@ -31,12 +31,13 @@ syntaxHighlighter: no
 > *Aug. 2018 - Now*
 
 #### [Stacks]
-[![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){: width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
+[![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){:width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
 
 java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
 jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
 
-+ SQL-D 자격증 보유
+> SQL-D 자격증 보유
+
 #### [More in github]
 [link to Github!](https://github.com/devwon)
 
