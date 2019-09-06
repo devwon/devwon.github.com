@@ -14,10 +14,10 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-## Basic info
+## 기본 정보
 ---
 #### [Educations Experiences]
-### Yang myeong high school : 양명여자고등학교
+### Yang-myeong high school : 양명여자고등학교
 May. 2012 - Feb. 2014
 
 ### Kyonggi university : 경기대학교
