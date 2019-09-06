@@ -7,7 +7,7 @@ excerpt: "lalala"
 categories: introduce
 tags:  info, blog, self-introduce
 image:
-  feature: jekyll-logo.jpg
+  feature: stacks.png
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
