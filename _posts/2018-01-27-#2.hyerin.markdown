@@ -36,6 +36,7 @@ syntaxHighlighter: no
 java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
 jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
 
++ SQL-D 자격증 보유
 #### [More in github]
 [link to Github!](https://github.com/devwon)
 
