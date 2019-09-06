@@ -31,7 +31,7 @@ syntaxHighlighter: no
 > *Aug. 2018 - Now*
 
 #### [Stacks]
-[![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){:width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
+[![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C "클릭하여 자세히 보기"){:width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
 
 > java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
 > jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
