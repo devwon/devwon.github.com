@@ -16,7 +16,7 @@ tagline:             'tagline'
 description:         'description'
 url:                 https://devwon.github.io
 rss:                 rss feed url
-baseurl:             url
+baseurl:             https://devwon.github.io
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
