@@ -21,12 +21,13 @@ syntaxHighlighter: no
 May. 2012 - Feb. 2014
 
 ### Kyonggi university : 경기대학교
-May. 2014 - Feb. 2018, MIS
+May. 2014 - Feb. 2018
 MIS, Management Information System : 경영정보학과
 
 #### [Careers]
-롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
-2018-08 ~ 재직중
+Aug. 2018 - Now
+LDCC, Lottecard IS team, web development 
+: 롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
 
 #### [Stacks]
 java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven 
