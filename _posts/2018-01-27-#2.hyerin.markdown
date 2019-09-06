@@ -20,8 +20,8 @@ syntaxHighlighter: no
 > Yang-myeong Girls' High School : 양명여자고등학교          
 > *May. 2012 - Feb. 2014*
 
-> Kyonggi University : 경기대학교
-> MIS, Management Information System : 경영정보학과
+> Kyonggi University : 경기대학교                              
+> MIS, Management Information System : 경영정보학과         
 > *May. 2014 - Feb. 2018* 
 
 
@@ -33,8 +33,8 @@ syntaxHighlighter: no
 #### [Stacks]
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){:width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
 
-java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
-jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
+> java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
+> jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
 
 > SQL-D 자격증 보유
 
