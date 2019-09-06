@@ -7,7 +7,7 @@ excerpt: "hyerin"
 categories: introduce
 tags:  info, blog, self-introduce
 image:
-  feature: infoBanner.png
+  feature: stacks.png
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
