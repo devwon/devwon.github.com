@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "hyerin"
-date:   2018-01-27 13:03:00
-last_modified_at:  2018-01-01 17:03:00
+title:  "About me"
+date:   2019-09-06 13:03:00
+last_modified_at:  2019-09-06 17:03:00
 excerpt: "lalala"
-categories: history
+categories: introduce
 tags:  info, blog, self-introduce
 image:
   feature: jekyll-logo.jpg
@@ -14,26 +14,28 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-## 기본 인적 사항
-#### [학력]
-1) 고등학교 : 양명여자고등학교
-2012-03 ~ 2014-02
+## Basic info
+---
+#### [Educations Experiences]
+### Yang myeong high school : 양명여자고등학교
+May. 2012 - Feb. 2014
 
-2) 대학교 : 경기대학교 경영정보학과
-2014-03 ~ 2018-02
+### Kyonggi university : 경기대학교
+May. 2014 - Feb. 2018, MIS
+MIS, Management Information System : 경영정보학과
 
-#### [경력]
+#### [Careers]
 롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
 2018-08 ~ 재직중
 
-#### [기술 스택]
+#### [Stacks]
 java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven 
 
 #### [깃허브 주소]
 [link to Github!](https://github.com/devwon)
 
 ## 경험 및 경력기술서
-
+---
 #### [엘드림 페스타 2019 이벤트 개인화 노출] 
 
 2019-05-27 ~ 2019-06-21 
