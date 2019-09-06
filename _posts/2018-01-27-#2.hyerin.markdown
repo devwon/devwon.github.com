@@ -16,27 +16,27 @@ syntaxHighlighter: no
 
 ## 기본 정보
 ---
-#### [Educations Experiences]
-### Yang-myeong high school : 양명여자고등학교
+### [Education]
+#### Yang-myeong high school : 양명여자고등학교
 May. 2012 - Feb. 2014
 
-### Kyonggi university : 경기대학교
+#### Kyonggi university : 경기대학교
 May. 2014 - Feb. 2018
  
 MIS, Management Information System : 경영정보학과
 
-#### [Careers]
+### [Work Experience]
 Aug. 2018 - Now
  
 LDCC, Lottecard IS team, web development : 롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
 
-#### [Stacks]
-java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
-jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
+### [Stacks]
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){: width="60%" height="60%"}](https://stackshare.io/devwon/my-stack)
 
+java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
+jekyll, django, video editing(finalcutpro, AE), spring, springboot, gradle, maven
 
-#### [More in github]
+### [More in github]
 [link to Github!](https://github.com/devwon)
 
 ## 경험 및 경력기술서
