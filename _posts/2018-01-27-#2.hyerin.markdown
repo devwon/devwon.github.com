@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Details about devwon"
+title:  "About me"
 date:   2019-09-06 13:03:00
 last_modified_at:  2019-09-06 17:03:00
 excerpt: "hyerin"
@@ -17,17 +17,18 @@ syntaxHighlighter: no
 ## 기본 정보
 ---
 #### [Education]
-- Yang-myeong Girls' High School : 양명여자고등학교          
-- May. 2012 - Feb. 2014
+> Yang-myeong Girls' High School : 양명여자고등학교          
+> *May. 2012 - Feb. 2014*
 
-- Kyonggi University : 경기대학교
-- May. 2014 - Feb. 2018                                                     
-- MIS, Management Information System : 경영정보학과
+> Kyonggi University : 경기대학교
+> MIS, Management Information System : 경영정보학과
+> *May. 2014 - Feb. 2018* 
+
 
 #### [Work Experience]
-- LDCC, Lottecard IS team, web development :             
-- 롯데정보통신, 카드IS팀, 인터넷업무(웹개발)          
-- Aug. 2018 - Now
+> LDCC, Lottecard IS team, web development :             
+> 롯데정보통신, 카드IS팀, 인터넷업무(웹개발)          
+> *Aug. 2018 - Now*
 
 #### [Stacks]
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){: width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)

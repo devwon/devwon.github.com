@@ -11,7 +11,7 @@ permalink:           /:title
 timezone:            Asia/Seoul # eg. Asia/Kathmandu
 locale:              kr # eg. en_us
 name:			     devwon's blog
-title:               devwon's blog
+title:               Devwon's blog
 tagline:             'tagline'
 description:         'description'
 url:                 https://devwon.github.io

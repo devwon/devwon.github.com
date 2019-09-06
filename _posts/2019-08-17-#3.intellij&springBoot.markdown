@@ -5,22 +5,22 @@ date:   2019-08-17 00:09:00
 last_modified_at:  2019-08-17 00:09:00
 excerpt: "lalala"
 categories: history
-tags:  springBoot, intellij, maven
+tags:  springBoot, intellij, gradle, docker
 image:
-  feature: jekyll-logo.jpg
+  feature: springboot.png
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-[intellij와 springBoot로 간단한 프로젝트 구현하기]
+### [intellij와 springBoot로 간단한 프로젝트 구현하기]
 
+작성중~
 
-
-[참고자료]
+#### [참고자료]
 
 1. maven vs gradle
-  https://sugerent.tistory.com/571
+   [https://sugerent.tistory.com/571](https://sugerent.tistory.com/571)
 2. graphQl(gql)
-  http://tech.kakao.com/2019/08/01/graphql-basic/
+   [http://tech.kakao.com/2019/08/01/graphql-basic/](http://tech.kakao.com/2019/08/01/graphql-basic/)
