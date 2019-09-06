@@ -27,7 +27,8 @@ MIS, Management Information System : 경영정보학과
 #### [Work Experience]
 Aug. 2018 - Now
  
-LDCC, Lottecard IS team, web development : 롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
+LDCC, Lottecard IS team, web development :             
+롯데정보통신 카드IS팀 업무3담당 인터넷업무(웹개발)
 
 #### [Stacks]
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C){: width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
