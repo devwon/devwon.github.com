@@ -1,11 +1,10 @@
 ## devwon.github.io
+
 > Mickey 테마로 만든 혜린의 jekyll blog
-=======
 
 ![devwon's blog screenshots](/assets/images/demo.png "devwon's blog")
 
-
-### Images
+## Images
 
 1. devwon.github.io/assets/images/ : 로고 이미지, 아이콘 등
 2. devwon.github.io/assets/images/hero/ : 콘텐츠 내의 이미지
