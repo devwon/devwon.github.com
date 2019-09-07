@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-## 기본 정보
+## 기본 인적 사항
 ---
 #### [Education]
 > Yang-myeong Girls' High School : 양명여자고등학교          
