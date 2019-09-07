@@ -519,7 +519,7 @@ body {
 
 .textLogo {
   display: block;
-  background-image: url(../images/logo-text-black.svg);
+  background-image: url(../images/main-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 0;
