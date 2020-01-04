@@ -519,7 +519,7 @@ body {
 
 .textLogo {
   display: block;
-  background-image: url(../images/logo-text-black.svg);
+  background-image: url(../images/main-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -529,7 +529,7 @@ body {
 }
 
 .textLogo--white {
-  background-image: url(../images/logo-text-white.svg);
+  background-image: url(../images/side-logo.png);
 }
 
 .textLogo--sidebar {
