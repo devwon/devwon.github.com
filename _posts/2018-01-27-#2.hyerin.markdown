@@ -12,6 +12,7 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: yes
+
 ---
 
 ## 기본 인적 사항
@@ -31,7 +32,7 @@ syntaxHighlighter: yes
 > *Aug. 2018 - Oct. 2019*
 
 > HAKDOKMAN, Develop team, Back-end development :             
-> 학생독립만세, 개발팀, 백엔드개발(웹개발)         
+> [학생독립만세](https://www.hakdokman.com/), 개발팀, 백엔드개발(웹개발)         
 > *Nov. 2019 - Now*
 
 #### [Stacks]
