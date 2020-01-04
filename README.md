@@ -32,6 +32,7 @@ Post thumbnails are automatically resized via Gulp's image resize package, and m
 
 1. 댓글 : [disqus](https://disqus.com)
 2. 메일 구독 : [mailchimp](https://mailchimp.com)
+
 +추가 예정
 
 ## Author of theme
