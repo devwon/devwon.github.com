@@ -16,9 +16,12 @@ syntaxHighlighter: no
 
 
 ### [Postman 편하게 쓰기]
-#### 회사내 기존 api들을 테스트하기 위해서 postman으로 직접 request 날려보면서 하면 더 이해가 쉽게 된다. swagger를 보면서 날려보기에는 한계가 있어서 모듈별로 collection을 만들어서 사용해보았다.
 
-#### (잘못된 내용이 있으면 언제든지 고쳐주시고 댓글로 알려주시면 감사하겠습니다!)
+회사내 기존 api들을 테스트하기 위해서 postman으로 직접 request 날려보면서 하면 더 이해가 쉽게 된다. swagger를 보면서 날려보기에는 한계가 있어서 모듈별로 collection을 만들어서 사용해보았다.
+
+참고 사이트 - [[# Automatically Set CSRF Token in Postman — Django Tips]]([https://hackernoon.com/automatically-set-csrf-token-in-postman-django-tips-c9ec8eb9eb5b](https://hackernoon.com/automatically-set-csrf-token-in-postman-django-tips-c9ec8eb9eb5b))
+
+*(잘못된 내용이 있으면 언제든지 고쳐주시고 댓글로 알려주시면 감사하겠습니다!)*
 
 ## [테스트 방법]
 
