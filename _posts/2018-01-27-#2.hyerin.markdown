@@ -11,7 +11,7 @@ image:
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
-syntaxHighlighter: no
+syntaxHighlighter: yes
 ---
 
 ## 기본 인적 사항
@@ -28,7 +28,11 @@ syntaxHighlighter: no
 #### [Work Experience]
 > LDCC, Lottecard IS team, web development :             
 > 롯데정보통신, 카드IS팀, 인터넷업무(웹개발)          
-> *Aug. 2018 - Now*
+> *Aug. 2018 - Oct. 2019*
+
+> HAKDOKMAN, Develop team, Back-end development :             
+> 학생독립만세, 개발팀, 백엔드개발(웹개발)         
+> *Nov. 2019 - Now*
 
 #### [Stacks]
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C "클릭하여 자세히 보기"){:width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
