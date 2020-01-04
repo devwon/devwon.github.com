@@ -15,8 +15,8 @@ syntaxHighlighter: no
 ---
 
 
-# [Postman 편하게 쓰기]
-### 회사내 기존 api들을 테스트하기 위해서 postman으로 직접 request 날려보면서 하면 더 이해가 쉽게 된다. swagger를 보면서 날려보기에는 한계가 있어서 모듈별로 collection을 만들어서 사용해보았다.
+### [Postman 편하게 쓰기]
+#### 회사내 기존 api들을 테스트하기 위해서 postman으로 직접 request 날려보면서 하면 더 이해가 쉽게 된다. swagger를 보면서 날려보기에는 한계가 있어서 모듈별로 collection을 만들어서 사용해보았다.
 
 #### (잘못된 내용이 있으면 언제든지 고쳐주시고 댓글로 알려주시면 감사하겠습니다!)
 
@@ -27,7 +27,7 @@ syntaxHighlighter: no
 
 ### 2.  import collections
 
-![1_import_collection](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F31cec30d-0560-43af-abaf-563baec8c995%2FUntitled.png?table=block&id=9d82d480-e742-4219-892a-dd38c1d0fc03&width=6720&cache=v2){: width="50%" height="50%"}
+![1_import_collection](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F31cec30d-0560-43af-abaf-563baec8c995%2FUntitled.png?table=block&id=9d82d480-e742-4219-892a-dd38c1d0fc03&width=6720&cache=v2){: width="80%" height="80%"}
 
 postman 접속해서 다운 받은 파일을 압축해제 후 **import**한다.
 
@@ -45,7 +45,7 @@ postman 접속해서 다운 받은 파일을 압축해제 후 **import**한다.
 
 		🧞‍♂️: environment를 사용하면 매번 cookie와 token을 입력할 필요가 없이 변수에 담아놓고 사용할 수 있어 굉장히 엄청나게 대박 편리하다!
 
-![5-1-add-env](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbc0c7607-2913-4eea-903d-ba4926d1dc30%2F5-add-env.png?table=block&id=82197f43-f5d5-4257-9eb6-34bf092e054b&width=4000&cache=v2){: width="50%" height="50%"}
+![5-1-add-env](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbc0c7607-2913-4eea-903d-ba4926d1dc30%2F5-add-env.png?table=block&id=82197f43-f5d5-4257-9eb6-34bf092e054b&width=4000&cache=v2){: width="80%" height="80%"}
 
 우측 상단에 톱니바퀴 버튼을 누르면 environment 관리 화면이 나오는데, 여기서 Add 버튼 눌러서 환경을 추가한다.
 
@@ -59,13 +59,13 @@ postman 접속해서 다운 받은 파일을 압축해제 후 **import**한다.
 
 #### 6.  environment 적용
 
-![6-1-adjust-env](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F27d5790c-9a08-402c-ac4e-4fc36d31abb1%2F6-adjust-env.png?table=block&id=5887b46b-4cff-4368-bfe8-0ada52327da2&width=2880&cache=v2){: width="50%" height="50%"}
+![6-1-adjust-env](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F27d5790c-9a08-402c-ac4e-4fc36d31abb1%2F6-adjust-env.png?table=block&id=5887b46b-4cff-4368-bfe8-0ada52327da2&width=2880&cache=v2){: width="80%" height="80%"}
 
 우측 상단에서 위에서 추가한 환경을 선택하여 적용시킨다.
 
 > Request Headers부분에 {{csrftoken}}이 들어가있는데, 이건 환경에서 추가한 변수이다.
 
-![6-2-token](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5476d0d2-fb66-491b-8f94-10ea89723cb6%2F3.png?table=block&id=a865413f-9465-45f2-83d4-77d1e47c78d2&width=2790&cache=v2){: width="50%" height="50%"}
+![6-2-token](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5476d0d2-fb66-491b-8f94-10ea89723cb6%2F3.png?table=block&id=a865413f-9465-45f2-83d4-77d1e47c78d2&width=2790&cache=v2){: width="80%" height="80%"}
 
 Request Authorization부분에 Bearer Token 타입으로 {{token}}이 들어가있는데, 이것도 환경에서 추가한 변수이다.
 
