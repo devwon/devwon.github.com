@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link type="text/plain" rel="author" href="https://devwon.github.io/humans.txt" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Optimized for search engines -->
+  <meta name="description" content="lalala">
+
+  
+
+  <link rel="canonical" href="https://devwon.github.io/4-How-to-use-postman-easily">
+
+  
+
+  
+    <link rel="prev" href="https://devwon.github.io/2.hyerin" title="About me">
+  
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@username">
+  <meta name="twitter:creator" content="@username">
+  <meta name="twitter:title" content="How to use postman easily">
+  <meta name="twitter:description" content="lalala">
+  <meta name="twitter:image" content="https://devwon.github.io/assets/images/hero/postman-logo.png">
+  <meta name="twitter:url" content="https://devwon.github.io/4-How-to-use-postman-easily">
+
+  <!-- Open graph -->
+  <meta property="og:title" content="How to use postman easily">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://devwon.github.io/4-How-to-use-postman-easily">
+  <meta property="og:image" content="https://devwon.github.io/assets/images/hero/postman-logo.png">
+  <meta property="og:description" content="lalala">
+  <meta property="og:site_name" content="devwon's blog">
+  <meta property="og:locale" content="kr">
+
+  
+    <meta property="article:modified_time" content="2020-01-05T02:20:00+09:00">
+    <meta property="article:published_time" content="2020-01-05T02:20:00+09:00">
+    <meta property="article:author" content="https://www.facebook.com/username">
+    
+      <meta property="og:see_also" content="https://devwon.github.io/2.hyerin">
+    
+      <meta property="og:see_also" content="https://devwon.github.io/3.intellij&springBoot">
+    
+      <meta property="og:see_also" content="https://devwon.github.io/1.Build-a-jekyll-blog">
+    
+  
+
+  
+    
+    <meta property="article:section" content="history">
+    
+  
+
+  
+    
+    <meta property="article:tag" content="Postman,">
+    
+    <meta property="article:tag" content="django,">
+    
+    <meta property="article:tag" content="python,">
+    
+    <meta property="article:tag" content="collection">
+    
+  
+
+  <meta property="fb:admins" content="your facebook profile id">
+  <meta property="fb:app_id" content="your facebook app id">
+
+  <title>
+    
+      How to use postman easily &middot; Devwon's blog
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://devwon.github.io/assets/css/main.css">
+
+  
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://devwon.github.io/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://devwon.github.io/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+  <!-- modernizer -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body>
+    
+      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+      <nav role="navigation" class="sidebar sidebar--right">
+  <a href="https://devwon.github.io/" class="textLogo textLogo--white textLogo--sidebar">devwon's blog</a>
+  <ul class="sidebar-recentPosts">
+    
+      
+        <!-- exclude current post -->
+      
+    
+      
+      <li>
+        
+          <a href="/2.hyerin" class="sidebar-recentPosts-image-wrapper">
+            <img src="/assets/images/thumbnail/stacks.png" style="" alt="">
+          </a>
+        
+        <a href="/2.hyerin">About me</a>
+        <div class="postMeta">06 Sep 2019</div>
+      </li>
+      
+    
+      
+      <li>
+        
+          <a href="/3.intellij&springBoot" class="sidebar-recentPosts-image-wrapper">
+            <img src="/assets/images/thumbnail/springboot.png" style="" alt="">
+          </a>
+        
+        <a href="/3.intellij&springBoot">intellij&springBoot</a>
+        <div class="postMeta">17 Aug 2019</div>
+      </li>
+      
+    
+      
+      <li>
+        
+          <a href="/1.Build-a-jekyll-blog" class="sidebar-recentPosts-image-wrapper">
+            <img src="/assets/images/thumbnail/jekyll-logo.jpg" style="" alt="">
+          </a>
+        
+        <a href="/1.Build-a-jekyll-blog">Build A jekyll blog</a>
+        <div class="postMeta">02 Jan 2018</div>
+      </li>
+      
+    
+  </ul>
+</nav>
+
+      <nav class="menuWrapper">
+  <ul class="popover popover--menu">
+    <li class="menu-avatar">
+      <a href="https://devwon.github.io/" class="brandLogo brandLogo--small
+      
+      ">devwon's blog</a>
+      <ul class="list list--avatarMenu hidden">
+        <li class="list-item"><a href="">Twitter</a></li>
+        <li class="list-item"><a href="">LinkedIn</a></li>
+        <li class="list-item"><a href="">Quora</a></li>
+        <li class="list-item"><a href="">Dribbble</a></li>
+        <li class="list-item"><a href="">Kiva</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+    
+
+    <article class="postWrapper">
+  <section class="section--first is-darkBackgrounded u-table">
+    <div class="section-backgroundImage">
+
+      
+        <img class="post-featuredImage" src="/assets/images/hero/postman-logo.png" style="
+        
+          top:0px;
+        
+        " alt="">
+      
+
+    </div>
+    <div class="section-gradient
+    
+      section-gradient--darker
+    
+    "></div>
+    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
+      <div class="container">
+        <h2>How to use postman easily</h2>
+        <div class="postMeta-wrapper">
+          <ul class="postMeta">
+            <li class="postMeta-datetime">
+              <time datetime="2020-01-04 17:20:00 +0000">
+                05 Jan 2020
+              </time>
+            </li>
+            <li class="postMeta-author">
+              By devwon
+            </li>
+            <li class="postMeta-tags">
+              history
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section--last">
+    <div class="container container--content">
+      <div class="content-body">
+
+        <h3 id="postman-편하게-쓰기">[Postman 편하게 쓰기]</h3>
+
+<p>회사내 기존 api들을 테스트하기 위해서 postman으로 직접 request 날려보면서 하면 더 이해가 쉽게 된다. swagger를 보면서 날려보기에는 한계가 있어서 모듈별로 collection을 만들어서 사용해보았다.</p>
+
+<p>참고 사이트 - <a href="https://hackernoon.com/automatically-set-csrf-token-in-postman-django-tips-c9ec8eb9eb5b">[Automatically Set CSRF Token in Postman — Django Tips]</a></p>
+
+<p><em>(잘못된 내용이 있으면 언제든지 고쳐주시고 댓글로 알려주시면 감사하겠습니다!)</em></p>
+
+<h2 id="테스트-방법">[테스트 방법]</h2>
+
+<h4 id="1--postman-api-collection-파일을-준비한다">1.  Postman API collection 파일을 준비한다.</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>🧞‍♂️: 각자 만들어 놓은 collection으로!(난 내가 만들었음..)
+</code></pre></div></div>
+
+<h4 id="2--import-collections">2.  import collections</h4>
+
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F92d76edd-be69-4c31-9f53-9e7ce3feafa7%2F1_import_collection.png?table=block&amp;id=9d82d480-e742-4219-892a-dd38c1d0fc03&amp;width=4000&amp;cache=v2" alt="1_import_collection" width="100%" height="100%" /></p>
+
+<p>postman 접속해서 다운 받은 파일을 압축해제 후 <strong>import</strong>한다.</p>
+
+<h4 id="3--회원가입-유저-로그인">3.  회원가입, 유저 로그인</h4>
+
+<p>API를 통해 회원 가입, 유저 로그인 진행한다.</p>
+
+<h4 id="4--token-발행-확인">4.  token 발행 확인</h4>
+
+<p>유저 로그인 후 Response 부분에서 두 곳을 봐야한다.</p>
+
+<blockquote>
+  <ol>
+    <li>Body : 발행된 key</li>
+    <li>Cookies : 발행된 csrftoken</li>
+  </ol>
+</blockquote>
+
+<h4 id="5-environment-추가">5. environment 추가</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>🧞‍♂️: environment를 사용하면 매번 cookie와 token을 입력할 필요가 없이 변수에 담아놓고 사용할 수 있어 굉장히 엄청나게 대박 편리하다!
+</code></pre></div></div>
+
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbc0c7607-2913-4eea-903d-ba4926d1dc30%2F5-add-env.png?table=block&amp;id=82197f43-f5d5-4257-9eb6-34bf092e054b&amp;width=4000&amp;cache=v2" alt="5-1-add-env" width="100%" height="100%" /></p>
+
+<p>우측 상단에 톱니바퀴 버튼을 누르면 environment 관리 화면이 나오는데, 여기서 Add 버튼 눌러서 환경을 추가한다.</p>
+
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbc0c7607-2913-4eea-903d-ba4926d1dc30%2F5-add-env.png?table=block&amp;id=82197f43-f5d5-4257-9eb6-34bf092e054b&amp;width=4000&amp;cache=v2" alt="5-2-add-var" width="100%" height="100%" /></p>
+
+<p>환경의 이름을 추가하고, ‘token’, ‘csrftoken’의 이름으로 2개의 변수를 추가한다.</p>
+
+<p>먼저 token이라는 변수에는 위에 로그인 후 발행된 key(uuid)를 넣고, csrftoken이라는 변수에는 로그인 후 발행된 csrftoken을 넣는다.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>🧞‍♂️: 추후에 새로운 정보로 재로그인시 두 VALUE 를 바꿔준다.
+</code></pre></div></div>
+
+<h4 id="6--environment-적용">6.  environment 적용</h4>
+
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F27d5790c-9a08-402c-ac4e-4fc36d31abb1%2F6-adjust-env.png?table=block&amp;id=5887b46b-4cff-4368-bfe8-0ada52327da2&amp;width=3350&amp;cache=v2" alt="6-1-adjust-env" width="100%" height="100%" /></p>
+
+<p>우측 상단에서 위에서 추가한 환경을 선택하여 적용시킨다.</p>
+
+<blockquote>
+  <p>Request Headers부분에 이 들어가있는데, 이건 환경에서 추가한 변수이다.</p>
+</blockquote>
+
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5476d0d2-fb66-491b-8f94-10ea89723cb6%2F3.png?table=block&amp;id=a865413f-9465-45f2-83d4-77d1e47c78d2&amp;width=2790&amp;cache=v2" alt="6-2-token" width="100%" height="100%" /></p>
+
+<p>Request Authorization부분에 Bearer Token 타입으로 이 들어가있는데, 이것도 환경에서 추가한 변수이다.</p>
+
+<hr />
+<blockquote>
+  <h4 id="️-권한-문제">🧞‍♂️: 권한 문제!</h4>
+  <p><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F051d5acb-71ae-4e58-a0ac-2d37ecf262b8%2FUntitled.png?table=block&amp;id=b2e36f9a-fa3c-4a78-b75e-5699aea897e4&amp;width=1340&amp;cache=v2" alt="7-issue1" />
+로그인한 계정으로는 권한이 충분치 않은 request를 날리면 위와 같이 뜬다. 이때 권한을 바꾸고 싶으면, DB자체 혹은 관련 API로 수정한다.</p>
+</blockquote>
+
+
+
+      </div>
+    </div>
+    <hr class="u-clearHr"/>
+    <hr class="u-clearHr"/>
+    <hr/>
+    <div class="container container--content">
+      <div class="content-body">
+        <section class="section--subscribe">
+  <div class="container container--content">
+    <h3 class="u-alignCenter">Stay in touch</h3>
+    <p>
+      안녕하시렵니까? 저는 웹개발과 영상편집을 하는 <a href="https://devwon.github.io/about/">devwon</a>이구요.
+      여기는 devwon의 블로그입니다. 웹개발(node JS, python..), 영상 편집(finalcutpro) 등 저의 주 활동 분야에 대한 글을 올립니다:)
+      <br><br>이메일로 블로그의 새로운 글을 받아보시려면 아래에 주소를 입력해주세요!
+    </p>
+    <div class="newsletterForm-wrapper">
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://github.us4.list-manage.com/subscribe/post?u=eb5277079c1e6ba7ccdd06f2b&amp;id=22463cc81a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="textInput textInput--large" id="mce-EMAIL" placeholder="Your email address">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_eb5277079c1e6ba7ccdd06f2b_22463cc81a" tabindex="-1" value=""></div>
+            <div class="clear u-alignCenter"><input type="submit" value="이메일로 받아보기" name="subscribe" id="mc-embedded-subscribe" class="button button--primary"></div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
+    <hr/>
+  </div>
+</section>
+
+        <div class="content-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'devwon';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+      </div>
+    </div>
+  </section>
+  <footer class="postFooter">
+    
+      <section class="section--prePost is-darkBackgrounded u-table">
+        <div class="section-backgroundImage section-backgroundImage--previousPage">
+          <img class="post-featuredImage"
+          
+            src="/assets/images/hero/stacks.png"
+          
+          style="top:0" alt="">
+        </div>
+        <div class="section-gradient
+        
+          section-gradient--darker
+        
+        "></div>
+        <div class="section-title u-tableCell u-verticalAlignMiddle">
+          <div class="container">
+            <h4>Next story:</h4>
+            <a class="prev" href="/2.hyerin">
+              <h2>About me</h2>
+            </a>
+          </div>
+        </div>
+      </section>
+    
+  </footer>
+</article>
+
+<div class="modal-toggle-group animate scaleIn">
+  <div class="modal-toggle-bubbleShadow"></div>
+  <div class="modal-toggle-bubble"></div>
+  <div class="modal-toggle-wrapper"></div>
+  <div class="modal-toggle-close-wrapper">
+    <div class="modal-toggle-close"></div>
+  </div>
+</div>
+
+<div class="fullscreenModal u-table">
+  <div class="u-tableCell u-verticalAlignMiddle">
+    <h2 class="h2--shareTitle">Share this story</h2>
+    <ul class="shareWrapper">
+      <li><a class="shareButton shareButton--twitter" href="https://twitter.com/intent/tweet?text=How to use postman easily by @VincentChan&url=https%3A%2F%2Fdevwon.github.io%2F4-How-to-use-postman-easily" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevwon.github.io%2F4-How-to-use-postman-easily" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--linkedin" href="https://www.linkedin.com/shareArticle
+?mini=true&url=https%3A%2F%2Fdevwon.github.io%2F4-How-to-use-postman-easily&title=How to use postman easily"  target="_blank"></a></li>
+      <li><a class="shareButton shareButton--buffer" href="https://buffer.com/add?text=How to use postman easily by @VincentChan&url=https%3A%2F%2Fdevwon.github.io%2F4-How-to-use-postman-easily" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--hackernews" href="http://news.ycombinator.com/submitlink?u=https%3A%2F%2Fdevwon.github.io%2F4-How-to-use-postman-easily&t=How to use postman easily" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--pocket" href="https://getpocket.com/save?url=https%3A%2F%2Fdevwon.github.io%2F4-How-to-use-postman-easily&title=How to use postman easily" target="_blank"></a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+      <label for="sidebar-checkbox" class="sidebar-toggle-wrapper">
+  <div class="sidebar-toggle"></div>
+</label>
+
+    
+
+    
+
+    <!-- Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/assets/javascripts/imagesloaded.pkgd.min.js"></script>
+
+
+
+<script>
+  $(document).ready(function(){
+
+    // Featured image loaded behavior
+    $('.section-backgroundImage img').imagesLoaded()
+      .done( function( instance ) {
+        $('.post-featuredImage').addClass('is-loaded');
+      });
+
+    // Modal toggle behavior
+    $('.modal-toggle-wrapper').click(function() {
+    	$(this).toggleClass('active');
+      $('.modal-toggle-bubble').toggleClass('active');
+    	$('.modal-toggle-bubbleShadow').toggleClass('active');
+      $('.modal-toggle-close-wrapper').toggleClass('active');
+      $('.fullscreenModal').toggleClass('active');
+    });
+
+    // Prevent default anchor event and make a share popup
+    $.fn.sharePopup = function (e, intWidth, intHeight, blnResize) {
+
+      e.preventDefault();
+      intWidth = intWidth || '750';
+      intHeight = intHeight || '500';
+      strResize = (blnResize ? 'yes' : 'no');
+
+      //// Set title and open popup with focus on it
+      var strTitle = ((typeof this.attr('title') !== 'undefined') ? this.attr('title') : 'Social Share'),
+          strParam = 'width=' + intWidth + ',height=' + intHeight + ',resizable=' + strResize,
+          objWindow = window.open(this.attr('href'), strTitle, strParam).focus();
+    }
+
+    $('.shareButton').on("click", function(e) {
+      $(this).sharePopup(e);
+    });
+  });
+
+  // Show modal toggle after scrolling 300px
+  $(document).scroll(function() {
+    $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
+  });
+</script>
+
+  </body>
+</html>
