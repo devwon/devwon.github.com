@@ -4,7 +4,7 @@ title:  "Let me introduce myself in video"
 date:   2020-01-05 21:20:00
 last_modified_at:  2020-01-05 21:20:00
 excerpt: "lalala"
-categories: video
+categories: history
 tags:  video editing, AE, Finalcutpro, devwon
 image:
   feature: selfIntroduce.png
