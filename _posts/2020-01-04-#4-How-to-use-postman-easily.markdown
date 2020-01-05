@@ -25,26 +25,28 @@ syntaxHighlighter: no
 
 ## [테스트 방법]
 
-###  1.  Postman API collection 파일을 준비한다.
+####  1.  Postman API collection 파일을 준비한다.
 	🧞‍♂️: 각자 만들어 놓은 collection으로!(난 내가 만들었음..)
 
-### 2.  import collections
+#### 2.  import collections
 
 ![1_import_collection](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F92d76edd-be69-4c31-9f53-9e7ce3feafa7%2F1_import_collection.png?table=block&id=9d82d480-e742-4219-892a-dd38c1d0fc03&width=4000&cache=v2){: width="100%" height="100%"}
 
 postman 접속해서 다운 받은 파일을 압축해제 후 **import**한다.
 
-### 3.  회원가입, 유저 로그인
+#### 3.  회원가입, 유저 로그인
 
 '**hakdokman_party**' collection에서 회원 가입, 유저 로그인을 진행한다.
 
-### 4.  token 발행 확인
+#### 4.  token 발행 확인
 
 유저 로그인 후 Response 부분에서 두 곳을 봐야한다.
 
 1.  Body : 발행된 key
 2.  Cookies : 발행된 csrftoken
-3. environment 추가
+
+
+#### 5. environment 추가
 
 		🧞‍♂️: environment를 사용하면 매번 cookie와 token을 입력할 필요가 없이 변수에 담아놓고 사용할 수 있어 굉장히 엄청나게 대박 편리하다!
 
@@ -73,9 +75,8 @@ postman 접속해서 다운 받은 파일을 압축해제 후 **import**한다.
 Request Authorization부분에 Bearer Token 타입으로 {{token}}이 들어가있는데, 이것도 환경에서 추가한 변수이다.
 
 ---
-### 🧞‍♂️: 권한 문제! 
----
-![7-issue1](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F051d5acb-71ae-4e58-a0ac-2d37ecf262b8%2FUntitled.png?table=block&id=b2e36f9a-fa3c-4a78-b75e-5699aea897e4&width=1340&cache=v2)
+> #### 🧞‍♂️: 권한 문제! 
+>![7-issue1](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F051d5acb-71ae-4e58-a0ac-2d37ecf262b8%2FUntitled.png?table=block&id=b2e36f9a-fa3c-4a78-b75e-5699aea897e4&width=1340&cache=v2)
 >로그인한 계정으로는 권한이 충분치 않은 request를 날리면 위와 같이 뜬다. 이때 권한을 바꾸고 싶으면, DB자체 혹은 관련 API로 수정한다.
 
 
