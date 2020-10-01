@@ -15,7 +15,7 @@ title:               Devwon's blog
 tagline:             'tagline'
 description:         'description'
 url:                 https://devwon.github.io
-rss:                 rss feed url
+rss:                 https://blog.devwon.site
 baseurl:             'https://devwon.github.io/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
@@ -45,7 +45,7 @@ port:             	 9001
 
 defaults:
   -
-    scope:
+    scope:jekyll-feed
       path: "_posts"
       type: "posts"
     values:
