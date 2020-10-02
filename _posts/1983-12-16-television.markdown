@@ -4,6 +4,7 @@ published: false
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Mickey_Mouse)
 
 테스트!!!
+
 In the 1950s, Mickey became more known for his appearances on television, particularly with The Mickey Mouse Club. Many of his theatrical cartoon shorts were rereleased on television series such as Ink & Paint Club, various forms of the Walt Disney anthology television series, and on home video. Mickey returned to theatrical animation in 1983 with Mickey's Christmas Carol, an adaptation of Charles Dickens' A Christmas Carol in which Mickey played Bob Cratchit. This was followed up in 1990 with The Prince and the Pauper.
 
 Throughout the decades, Mickey Mouse competed with Warner Bros.' Bugs Bunny for animated popularity. But in 1988, in a historic moment in motion picture history, the two rivals finally shared screen time in the Robert Zemeckis Disney/Amblin film Who Framed Roger Rabbit. Disney and Warner signed an agreement stating that each character had exactly the same amount of screen time in the scene, right down to the frame.
