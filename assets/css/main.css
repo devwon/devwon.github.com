@@ -1660,10 +1660,13 @@ body {
   }
 }
 
-.section--about,
-.section-backgroundImage,
+.section--backgroudImage{
+  height: 30rem;
+}
+
+.section-about,
 .section--about ~ .post-featuredImage {
-  height: 36rem;
+  height: 22rem;
 }
 
 @media (max-width: 767px) {

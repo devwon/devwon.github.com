@@ -7,22 +7,42 @@ tipue_search_active: true
 exclude_from_search: true
 ---
 
-<form action="{{ page.url | relative_url }}">
-  <div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
-  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
-  <div style="clear: both;"></div>
-</form>
-
-<div id="tipue_search_content"></div>
-
-<script>
+<script>  
 $(document).ready(function() {
-	$('#tipue_search_input').tipuesearch({
-		'wholeWords' : false,
-		'showTime' : false,
-		'minimumLength' : 1
-	});
-});
+    $('#tipue_search_input').tipuesearch({
+      'wholeWords': false,
+      'showTime': false,
+      'minimumLength': 1
+    });
+  });
 </script>
-
-
+<article class="postWrapper">
+  <section class="section--first section--about is-darkBackgrounded u-table">
+    <div class="section-backgroundImage"> 
+      <!--<img class="post-featuredImage" src="{{site.baseurl}}/assets/images/thumbnail/infoBanner.png" height="50%" style="" alt="infoBanner">-->
+    </div>
+    <div class="section-gradient"></div>
+    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
+      <div class="container">
+        <h1>검색 결과</h1>
+        <div class="postMeta-wrapper">
+          <ul class="postMeta">
+            <li class="postMeta-author">
+              검색 결과를 보여줍니다.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section--last">
+    <div class="container container--content">
+      <div class="content-body">
+        <div id="tipue_search_content"></div>
+      </div>
+    </div>
+  </section>
+</article>
+<hr/>
+{% include subscribe.html %}
+{% include footer.html %}

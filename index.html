@@ -56,13 +56,13 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
-
+  <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
   
 
   <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -86,21 +86,21 @@
 
 
   <body>
-    
-      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-      <nav role="navigation" class="sidebar sidebar--right">
-  <a href="/" class="textLogo textLogo--white textLogo--sidebar">devwon's blog</a>
-  <form action="/search">
-	     <div class="tipue_search_left">
-		<img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
-	     </div>
-	     <div class="tipue_search_right">
-		<input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required>
-	     </div>
-	     <div style="clear: both;"></div>
-  </form>
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    <nav role="navigation" class="sidebar sidebar--right">
   
-  <ul class="sidebar-recentPosts">
+    <a href="/" class="textLogo textLogo--white textLogo--sidebar">devwon's blog</a>
+    <!--Search function-->
+    <form action="/search">
+	    <div class="tipue_search_left">
+		    <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required>
+	    </div>
+	    <div class="tipue_search_right">
+		    <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+	    </div>
+	    <div style="clear: both;"></div>
+    </form>
+    <ul class="sidebar-recentPosts">
       
       <li>
       
@@ -156,9 +156,7 @@
       <nav class="menuWrapper">
   <ul class="popover popover--menu">
     <li class="menu-avatar">
-      <a href="/" class="brandLogo brandLogo--small
-      
-      ">devwon's blog</a>
+      <a href="/" class="brandLogo brandLogo--small">devwon's blog</a>
       <ul class="list list--avatarMenu hidden">
         <li class="list-item"><a href="">Twitter</a></li>
         <li class="list-item"><a href="">LinkedIn</a></li>
@@ -285,7 +283,7 @@
     
 
     <!-- Javascript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
 <script src="/assets/javascripts/imagesloaded.pkgd.min.js"></script>
 
 

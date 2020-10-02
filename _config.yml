@@ -10,7 +10,7 @@ permalink:           /:title
 # Setup
 timezone:            Asia/Seoul # eg. Asia/Kathmandu
 locale:              kr # eg. en_us
-name:			     devwon's blog
+name:			           devwon's blog
 title:               Devwon's blog
 tagline:             'tagline'
 description:         'description'
@@ -50,9 +50,10 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
 # Tipue search settings
 tipue_search:
   include:
-    pages: true
+    pages: false
   exclude:
-    files: [search.html]
+    files: [search.html, index.html]
