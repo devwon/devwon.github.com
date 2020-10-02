@@ -1666,7 +1666,7 @@ body {
 
 .section-about,
 .section--about ~ .post-featuredImage {
-  height: 22rem;
+  height: 15rem;
 }
 
 @media (max-width: 767px) {
